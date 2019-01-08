@@ -1,0 +1,9 @@
+Resources:
+  StackTemplateBucket:
+    Type: "AWS::S3::Bucket"
+
+Outputs:
+  BucketName:
+    Value: !GetAtt StackTemplateBucket.DomainName
+    Export:
+      Name: !Sub "${AWS::StackName}-DomainName"

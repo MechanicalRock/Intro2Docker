@@ -1,0 +1,5 @@
+Resources:
+  Group:
+    Type: AWS::Cloudformation::Stack
+    Properties:
+      TemplateUrl: https://s3.

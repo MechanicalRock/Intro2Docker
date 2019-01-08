@@ -1,0 +1,9 @@
+Resources:
+  ParticipantGroup:
+    Type: AWS::IAM::Group
+    Properties:
+      GroupName: ParticipantGroup
+      ManagedPolicyArns: [ arn:aws:iam::aws:policy/AWSCloud9User ]
+
+Outputs:
+  GroupArn: !Ref ParticipantGroup
