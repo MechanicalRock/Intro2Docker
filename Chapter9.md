@@ -41,7 +41,7 @@ To create a docker network, we can do it with a single command
 
 **Start two alpine containers:**
 >`docker run -dit --net mynetwork --name alpine3 alpine`<br />
-`docker run -dit --net mynetwork --name alpine4 alpine4`
+`docker run -dit --net mynetwork --name alpine4 alpine`
 
 **Attach to the first container:**
 > `docker attach alpine3`
